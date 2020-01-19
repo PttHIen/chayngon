@@ -1,0 +1,71 @@
+git
+
+git rm --cached -r .idea
+git rm --cached -r rider/config.php
+git rm --cached -r admin/config.php
+git rm --cached -r restaurant/config.php
+git rm --cached -r mobileapp_api/app/Lib/Variables.php
+
+
+http://phpmyadmin.vantinviet.com/
+
+
+Database:	ngon365_ngon2
+Host:	localhost
+Username:	ngon365_ngon2
+Password:	znq4a3t0yD
+
+
+
+local http://restaurant-food.com
+
+
+
+live site
+https://ngon365.com/admin
+https://ngon365.com/restaurant
+https://ngon365.com/rider
+https://ngon365.com/mobileapp_api
+
+
+tài khoản ftp
+ngonninh@ngon365.com/wVhB4SKtT 103.45.230.203
+
+http://103.45.230.203:8080/job/ngon365.com/
+
+cuongndvn/df!sdfd$$$
+
+doc online
+http://demo.dinosoftlabs.com/foodies/doc/
+
+cau hinh ket noi
+
+sua file
+
+restaurant/config.php
+admin/config.php
+rider/config.php
+mobileapp_api/app/Lib/Variables.php
+
+
+user:
+superadmin
+	admin@admin.com
+	123456
+restaurant
+	scoma@gmail.com
+	123456
+rider
+	rider@dinosoftlabs.com
+	123456
+
+    riderhien@gmail.com
+
+kiem tra cau hinh API có thành công hay không
+https://ngon365.com/mobileapp_api/api
+
+
+
+directadmin : http://103.45.230.203:2222
+
+

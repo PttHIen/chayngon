@@ -1,0 +1,54 @@
+Array
+(
+    [TZ] => Etc/GMT+7
+    [REDIRECT_REDIRECT_UNIQUE_ID] => Wh8ee0y5ZB4756ad13pS6gAAAAw
+    [REDIRECT_REDIRECT_SCRIPT_URL] => /publicSite/showRestaurantDeals
+    [REDIRECT_REDIRECT_SCRIPT_URI] => http://foodomia.dinosoftlabs.com/publicSite/showRestaurantDeals
+    [REDIRECT_REDIRECT_STATUS] => 200
+    [REDIRECT_UNIQUE_ID] => Wh8ee0y5ZB4756ad13pS6gAAAAw
+    [REDIRECT_SCRIPT_URL] => /publicSite/showRestaurantDeals
+    [REDIRECT_SCRIPT_URI] => http://foodomia.dinosoftlabs.com/publicSite/showRestaurantDeals
+    [REDIRECT_HANDLER] => application/x-httpd-ea-php56
+    [REDIRECT_STATUS] => 200
+    [UNIQUE_ID] => Wh8ee0y5ZB4756ad13pS6gAAAAw
+    [SCRIPT_URL] => /publicSite/showRestaurantDeals
+    [SCRIPT_URI] => http://foodomia.dinosoftlabs.com/publicSite/showRestaurantDeals
+    [HTTP_HOST] => foodomia.dinosoftlabs.com
+    [HTTP_ACCEPT] => application/json
+    [CONTENT_TYPE] => application/json
+    [HTTP_KEY] => irfan
+    [CONTENT_LENGTH] => 21
+    [PATH] => /usr/local/jdk/bin:/usr/kerberos/sbin:/usr/kerberos/bin:/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/usr/X11R6/bin:/usr/local/bin:/usr/X11R6/bin:/root/bin:/opt/bin
+    [SERVER_SIGNATURE] => 
+    [SERVER_SOFTWARE] => Apache
+    [SERVER_NAME] => foodomia.dinosoftlabs.com
+    [SERVER_ADDR] => 132.148.27.211
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => 132.148.27.211
+    [DOCUMENT_ROOT] => /home/dinosoftlabs/foodomia.dinosoftlabs.com
+    [REQUEST_SCHEME] => http
+    [CONTEXT_PREFIX] => /cgi-sys
+    [CONTEXT_DOCUMENT_ROOT] => /usr/local/cpanel/cgi-sys/
+    [SERVER_ADMIN] => webmaster@foodomia.dinosoftlabs.com
+    [SCRIPT_FILENAME] => /home/dinosoftlabs/foodomia.dinosoftlabs.com/index.php
+    [REMOTE_PORT] => 43858
+    [REDIRECT_URL] => /index.php
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [REQUEST_METHOD] => POST
+    [QUERY_STRING] => 
+    [REQUEST_URI] => /publicSite/showRestaurantDeals
+    [SCRIPT_NAME] => /index.php
+    [ORIG_SCRIPT_FILENAME] => /usr/local/cpanel/cgi-sys/ea-php56
+    [ORIG_PATH_INFO] => /index.php
+    [ORIG_PATH_TRANSLATED] => /home/dinosoftlabs/foodomia.dinosoftlabs.com/index.php
+    [ORIG_SCRIPT_NAME] => /cgi-sys/ea-php56
+    [PHP_SELF] => /index.php
+    [REQUEST_TIME_FLOAT] => 1511988859.59
+    [REQUEST_TIME] => 1511988859
+    [argv] => Array
+        (
+        )
+
+    [argc] => 0
+)

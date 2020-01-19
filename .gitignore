@@ -1,0 +1,7 @@
+/.idea
+/rider/config.php
+/admin/config.php
+/restaurant/config.php
+/mobileapp_api/app/Lib/Variables.php
+/mobileapp_api/app/tmp/cache
+/mobileapp_api/app/tmp/logs

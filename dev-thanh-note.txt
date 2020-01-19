@@ -1,0 +1,15 @@
+http://restaurant-food.com:1235/mobileapp_api/api
+
+http://restaurant-food.com:1235/mobileapp_api
+
+http://restaurant-food.com:1235/admin
+
+http://restaurant-food.com:1235/restaurant
+
+http://restaurant-food.com:1235/rider
+
+http://phpmyadmin.vantinviet.com/
+
+http://localhost:1235/ampps/index.php?act=ampps_domainmanage
+lam dep chuoi json
+https://jsoneditoronline.org/

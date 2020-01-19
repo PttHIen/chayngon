@@ -1,0 +1,30 @@
+.rule {
+    padding-bottom: 20px;
+    font-size: 22px;
+}
+.text-form {
+    clear: both;
+    margin-top: 10px;
+    position: relative;
+    text-shadow: 0 1px 1px #fff;
+    min-height: 400px;
+    white-space: normal;
+    border: 1px solid #eee;
+    padding: 20px;
+    overflow: hidden;
+    border-radius: 2px;
+    background: #fff;
+}
+.container{
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.ui-panel-wrapper {
+    position: relative;
+    min-height: inherit;
+    border: 0;
+    overflow-x: hidden;
+    z-index: 999;
+}

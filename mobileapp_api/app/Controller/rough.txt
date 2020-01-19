@@ -1,0 +1,44 @@
+ public function showRestaurants(){
+
+        $this->loadModel("Restaurant");
+        $this->loadModel("RestaurantRating");
+
+        if ($this->request->isPost()) {
+            $json = file_get_contents('php://input');
+            $data = json_decode($json, TRUE);
+
+            $lat = $data['lat'];
+            $long = $data['long'];
+
+            $restaurants = $this->Restaurant->getNearByRestaurants($lat,$long);
+
+            $i= 0;
+            foreach($restaurants as $rest){
+                $ratings = $this->RestaurantRating->getAvgRatings($rest['Restaurant']['id']);
+
+                if(count($ratings) > 0) {
+                    $restaurants[$i]['TotalRatings']["avg"] = $ratings[0]['average'];
+                    $restaurants[$i]['TotalRatings']["totalRatings"] = $ratings[0]['total_ratings'];
+                }
+
+
+
+                if($restaurants[$i]['RestaurantFavourite']['id'] !== null){
+
+                    $restaurants[$i]['Restaurant']['favourite'] = 1;
+                }else{
+
+                    $restaurants[$i]['Restaurant']['favourite'] = 0;
+                }
+                $i++;
+
+            }
+            $output['code'] = 200;
+
+            $output['msg'] = $restaurants;
+            echo json_encode($output);
+
+
+            die();
+        }
+    }

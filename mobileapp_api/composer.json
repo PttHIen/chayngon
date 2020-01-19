@@ -1,0 +1,9 @@
+{
+	"require": {
+		"tanuck/pusher": "dev-master",
+		"kreait/firebase-php": "^4.18",
+		"ext-hash": "*",
+		"ext-json": "*",
+		"ext-mongodb": "^1.2.9"
+	}
+}
